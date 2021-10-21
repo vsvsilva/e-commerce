@@ -8,10 +8,10 @@ const Navbar = () => {
     const classes = useStyles()
     return (
         <>
-            <AppBar position="fixed" classname={classes.appBar} color="inherit">
+            <AppBar position="fixed" className={classes.appBar} color="inherit">
                 <Toolbar>
-                    <Typography variant="h6" classname={classes.title} color="inherit">
-                        <img src={logo} alt="Commerce.js" height="25px" classname={classes.image}/>
+                    <Typography variant="h6" className={classes.title} color="inherit">
+                        <img src={logo} alt="Commerce.js" height="25px" className={classes.image}/>
                         Commerce.js
                     </Typography>
                     <div className={classes.grow}/>
