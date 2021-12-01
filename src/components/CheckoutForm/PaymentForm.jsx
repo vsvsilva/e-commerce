@@ -1,10 +1,14 @@
 import React from 'react'
+import { Typography, BUtton, Divider } from '@material-ui/core'
+import { Elements, CardElement, ElementConsumer } from '@stripe/react-stripe-js'
+import { LoadStrip } from '@stripe/stripe-js'
+import Review from './Review'
 
-function PaymentForm({ shippingData }) {
+function PaymentForm({ checkoutToken }) {
     return (
-        <div>
-            PaymentForm
-        </div>
+        <>
+            <Review checkoutToken={checkoutToken}/>
+        </>
     )
 }
 
